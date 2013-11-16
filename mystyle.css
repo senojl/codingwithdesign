@@ -1,0 +1,125 @@
+body {
+	background-color:#fdf6e3;
+}
+
+h1{
+	opacity: 1.0;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom:0;
+	font-size: 36pt;
+	font-family: 'Futura Condensed', sans-serif, bold;
+	color:#002b36;
+	z-index:100000;
+}
+
+h2{
+	margin-left:550px;
+	font-family: 'Futura Condensed', sans-serif ;
+	font-style: italic;
+	font-weight: lighter;
+	color:#657b83;
+	margin-top: -42px;
+	font-size: 24pt;
+
+}
+
+#container{
+  width:auto;
+  height:auto;
+  
+}
+
+.header{
+	background-color:#9cbcd6;
+	top:0px;
+	margin: auto;
+	width:40%;
+	left:0px;
+	height:75px;
+	position: absolute;
+	margin-top: 0px;
+	margin-bottom:0;
+	font-size: 36pt;
+	font-family: 'Futura', sans-serif, bold;
+	color:#002b36;
+	z-index:100000;
+	text-align: center;
+
+
+}
+
+.logoimg{
+	margin-left: -40px;
+	margin-top: -100px;
+	z-index: 1000000;
+
+}
+
+.hleft{
+	background-color:#268bd2;
+	float: none;
+	top:0px;
+	margin: auto;
+	width:30%;
+	z-index:100000;
+	height:55px;
+	left:10%;
+	position: absolute;margin-top: 0px;
+	margin-bottom:0;
+	font-size: 24pt;
+	font-family: 'Futura Condensed', sans-serif, bold;
+	color:#002b36;
+	text-align: center;
+	padding-top: 20px;
+	z-index: -100000;
+
+}
+
+.hcenter{
+	background-color:#268bd2;
+	float: none;
+	top:0px;
+	margin: auto;
+	width:30%;
+	z-index:100000;
+	height:55px;
+	left:40%;
+	position: absolute;margin-top: 0px;
+	margin-bottom:0;
+	font-size: 24pt;
+	font-family: 'Futura Condensed', sans-serif, bold;
+	color:#002b36;
+	z-index:100000;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.hright{
+	background-color:#268bd2;
+	float: none;
+	top:0px;
+	margin: auto;
+	width:30%;
+	z-index:100000;
+	height:55px;
+	left:70%;
+	position: absolute;margin-top: 0px;
+	margin-bottom:0;
+	font-size: 24pt;
+	font-family: 'Futura Condensed', sans-serif, bold;
+	color:#002b36;
+	z-index:100000;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+.defbox{
+	z-index: -1000000;
+	margin-left: 290px;font-size: 36pt;
+	font-family: 'Futura Condensed', sans-serif, bold;
+	color:#657b83;
+	margin-top: -215px;
+}
