@@ -1,5 +1,6 @@
 body {
 	background-color:#fdf6e3;
+	z-index: -100000000;
 }
 
 h1{
@@ -24,29 +25,26 @@ h2{
 
 }
 
+h3{
+	font-family: 'Futura Condensed', sans-serif ;
+	font-style: bold;
+	color:#657b83;
+	text-align: center;
+	margin-top: 45px;
+	font-size: 24pt;
+}
+
+p{
+	font-family:'Andale Mono', monospace;
+	font-size: 14pt;
+	color:#657b83;
+	margin-left: 300px;
+}
+
 #container{
   width:auto;
   height:auto;
   
-}
-
-.header{
-	background-color:#9cbcd6;
-	top:0px;
-	margin: auto;
-	width:40%;
-	left:0px;
-	height:75px;
-	position: absolute;
-	margin-top: 0px;
-	margin-bottom:0;
-	font-size: 36pt;
-	font-family: 'Futura', sans-serif, bold;
-	color:#002b36;
-	z-index:100000;
-	text-align: center;
-
-
 }
 
 .logoimg{
@@ -65,7 +63,7 @@ h2{
 	z-index:100000;
 	height:55px;
 	left:10%;
-	position: absolute;margin-top: 0px;
+	position:absolute;margin-top: 0px;
 	margin-bottom:0;
 	font-size: 24pt;
 	font-family: 'Futura Condensed', sans-serif, bold;
@@ -122,4 +120,33 @@ h2{
 	font-family: 'Futura Condensed', sans-serif, bold;
 	color:#657b83;
 	margin-top: -215px;
+}
+
+#bottomhalf{
+	background-color:#eee8d5;
+	height:50%;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	z-index: -100000000000;
+	left:0;
+
+}
+
+.concept{
+	float:left;
+	margin:10px;
+	width:30%;
+}
+
+.process{
+	float:left;
+	margin:10px;
+	width:30%;
+}
+
+.code{
+	float:left;
+	margin:10px;
+	width:30%;
 }
