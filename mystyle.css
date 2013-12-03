@@ -107,8 +107,16 @@ p{
 }
 
 .conceptdescr{
-	margin-left: 60px;
+	margin-left: 115px;
 	margin-right: 30px;
+	background-image: url('conceptcirclemuted.png');
+	height:200px;
+	width:200px;
+}
+
+.conceptdescr:hover{
+	height:198px;
+	background-image: url('conceptcircle.png');
 }
 
 .process{
@@ -118,8 +126,15 @@ p{
 }
 
 .processdescr{
-	margin-top: -175px;
-	margin-left: 145px;
+	margin-left: 115px;
+	background-image: url('processcirclemuted.png');
+	height:200px;
+	width:202px;
+}
+
+.processdescr:hover{
+	height:198px;
+	background-image: url('processcircle.png');
 }
 
 .code{
@@ -128,5 +143,32 @@ p{
 }
 
 .codedescr{
-	margin-left: 60px;
+	margin-left: 123px;
+	background-image: url('codecirclemuted.png');
+	height:200px;
+	width:202px;
+}
+
+.codedescr:hover{
+	height:198px;
+	background-image: url('codecircle.png');
+}
+
+.conceptbody{
+	margin-left: 300px;
+	margin-top: -200px;
+	padding-right: 700px;
+}
+
+.pipe{
+	float: right;
+	margin-top: -350px;
+	padding-right: 200px;
+}
+
+.nextbutton{
+  width:50%;
+  margin-top: 60px;
+  margin-left: 550px;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
