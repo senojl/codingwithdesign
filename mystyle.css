@@ -5,7 +5,7 @@ body {
 
 h1{
 	opacity: 1.0;
-	margin-left: 30px;
+	margin-left: 2%;
 	margin-top: 0px;
 	margin-bottom:0;
 	font-size: 36pt;
@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-	margin-left:550px;
+	margin-left:40%;
 	font-family: "futura-pt-condensed", sans-serif ;
 	font-style: italic;
 	font-weight: lighter;
@@ -31,6 +31,14 @@ h3{
 	color:#657b83;
 	text-align: center;
 	margin-top: 45px;
+	font-size: 24pt;
+}
+
+h4{
+	font-family: "futura-pt-condensed", sans-serif ;
+	font-style: bold;
+	color:#268bd2;
+	text-align: center;
 	font-size: 24pt;
 }
 
@@ -78,14 +86,14 @@ p{
 
 .defbox{
 	z-index: -1000000;
-	margin-left: 290px;font-size: 36pt;
+	margin-left: 20%;font-size: 36pt;
 	font-family: 'futura-pt-condensed', sans-serif, bold;
 	color:#657b83;
-	margin-top: -215px;
+	margin-top: -15%;
 }
 
 .definition{
-	margin-left: 300px;
+	margin-left: 20%;
 }
 
 #bottomhalf{
@@ -101,40 +109,23 @@ p{
 
 .concept{
 	float:left;
-	margin-right:30px;
+	margin-right: 2%;
 	width:31%;
 	position: relative;
 }
 
-.conceptdescr{
-	margin-left: 115px;
-	margin-right: 30px;
-	background-image: url('conceptcirclemuted.png');
-	height:200px;
-	width:200px;
-}
-
-.conceptdescr:hover{
-	height:198px;
-	background-image: url('conceptcircle.png');
+#conceptcircle{
+	margin-left: 27%;
 }
 
 .process{
 	float:left;
-	margin-right:30px;
+	margin-right:2%;
 	width:31%;
 }
 
-.processdescr{
-	margin-left: 115px;
-	background-image: url('processcirclemuted.png');
-	height:200px;
-	width:202px;
-}
-
-.processdescr:hover{
-	height:198px;
-	background-image: url('processcircle.png');
+#processcircle{
+	margin-left: 27%;
 }
 
 .code{
@@ -142,27 +133,25 @@ p{
 	width:31%;
 }
 
-.codedescr{
-	margin-left: 123px;
-	background-image: url('codecirclemuted.png');
-	height:200px;
-	width:202px;
-}
-
-.codedescr:hover{
-	height:198px;
-	background-image: url('codecircle.png');
+#codecircle{
+	margin-left: 28%;
 }
 
 .conceptbody{
-	margin-left: 300px;
-	margin-top: -200px;
-	padding-right: 700px;
+	width:30%;
+	margin-left: 20%;
+	margin-top: -14%;
 }
 
 .pipe{
 	float: right;
 	margin-top: -350px;
+	padding-right: 200px;
+}
+
+.codepic{
+	float: right;
+	margin-top: -225px;
 	padding-right: 200px;
 }
 
@@ -172,3 +161,60 @@ p{
   margin-left: 550px;
   top: 0; left: 0; bottom: 0; right: 0;
 }
+
+.quote{
+	float:right;
+	width:40%;
+	margin-top: -20%;
+	padding-right: 60px;
+}
+
+#nextstep{
+	background-color:#eee8d5;
+	z-index: 100000000;
+}
+
+#working{
+	background-color: #eee8d5;
+	z-index: 100000000;
+	padding: 30px;
+	right: 0;
+	left:0;
+}
+
+.caption{
+	width: 70%;
+	display: inline-block;
+	float: right;
+	padding-right: 50px;
+	margin-top: -220px;
+
+
+}
+
+.evolutionimg{
+	margin-left: 2%;
+	margin-top: 2%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:500px;
+	height: 230px;
+	position: relative;
+	
+
+}
+
+.evolution{
+	width:30%;
+	text-align: right;
+	right:0px;
+	margin-left:65%;
+	padding-bottom: 200px;
+	margin-top: -200px;
+}
+
+.explore{
+	width:30%;
+	margin-left: 20%;
+}
+
